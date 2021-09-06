@@ -1,5 +1,6 @@
 export class Product {
-    sku: string;
+    id: string;
+    sku!: string;
     name: string;
     description: string;
     unitPrice: number;
@@ -7,5 +8,5 @@ export class Product {
     active: boolean;
     unitsInStock: number;
     dateCreated: Date;
-    lastUpdated: Date;
+    lastUpdate: Date;
 }
